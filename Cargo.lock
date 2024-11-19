@@ -316,9 +316,9 @@ dependencies = [
 
 [[package]]
 name = "cw-orch"
-version = "0.22.1"
+version = "0.23.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "eaf5050518adc0ce346658987e9fc7dc1e6b1c03e1c2e0d593b7821003713cc9"
+checksum = "97c76d9dd1c2632359f964e3531e5d0833d9022ae9fb216ce9aaaf36070d8bdf"
 dependencies = [
  "anyhow",
  "cosmwasm-std",
@@ -348,14 +348,15 @@ dependencies = [
 
 [[package]]
 name = "cw-orch-core"
-version = "1.0.0"
+version = "1.2.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1c8e62b4d04699596bc2f45c57a8e5459495584d8127588ae4bbe7f95d616b61"
+checksum = "9466093ad8bf067f9eebbe25835ada3ea155726ca557d9d1c7681538078ef24f"
 dependencies = [
  "abstract-cw-multi-test",
  "anyhow",
  "cosmos-sdk-proto",
  "cosmwasm-std",
+ "cw-storage-plus",
  "cw-utils",
  "dirs",
  "log",
@@ -367,9 +368,9 @@ dependencies = [
 
 [[package]]
 name = "cw-orch-fns-derive"
-version = "0.19.0"
+version = "0.21.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "007ac6fb7b24a0ec456bb75bb99b74fae12af4988c293aabfaef61d7b3f2013d"
+checksum = "e85c3dea0893dd742c33ede8b4becdfb19b458e86e006ecf9a09ed66331d0c85"
 dependencies = [
  "convert_case",
  "proc-macro2",

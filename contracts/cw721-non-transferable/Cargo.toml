@@ -21,7 +21,7 @@ library = []
 [dependencies]
 cosmwasm-schema = { workspace = true }
 cosmwasm-std = { workspace = true }
-cw-orch = "0.22.1"
+cw-orch = "0.23.0"
 cw-storage-plus = { workspace = true }
 cw2 = { workspace = true }
 cw721 = { workspace = true }
